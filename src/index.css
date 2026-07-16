@@ -1,0 +1,43 @@
+:root {
+  --bg: #f8f0ef;
+  --surface: #fff;
+  --surface-alt: #f3e6ea;
+  --border: #ecdfe0;
+  --text: #2a1f2b;
+  --text-muted: #6a5c69;
+  --text-soft: #7a6c78;
+  --text-faint: #8a7c88;
+  --primary: #5c2f4f;
+  --accent: #c77e9c;
+  --accent-strong: #a24d78;
+  --accent-soft: #d9a6bd;
+
+  --font-display: 'Newsreader', serif;
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Hanken Grotesk', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+}
+
+a {
+  color: inherit;
+}
+
+@keyframes ms-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
