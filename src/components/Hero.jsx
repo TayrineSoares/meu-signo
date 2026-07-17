@@ -6,7 +6,7 @@ function Hero() {
       <div className="hero__glow" aria-hidden="true" />
       <div className="eyebrow">Astrologia &amp; autoconhecimento</div>
       <h1 className="hero__title">
-        Qualquer viagem fica mais fácil com um <em>bom mapa</em>
+        Qualquer viagem fica mais fácil com um <br/> <em>bom mapa</em>
       </h1>
       <p className="hero__subtitle">
         E é para facilitar a sua jornada pela vida que eu quero interpretar o
