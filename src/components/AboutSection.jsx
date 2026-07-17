@@ -7,7 +7,7 @@ function AboutSection() {
         </div>
         <div>
           <div className="eyebrow eyebrow--section">Sobre mim</div>
-          <h2 className="section-title">Prazer, eu sou a sua astróloga</h2>
+          <h2 className="section-title">Prazer, eu sou a Amaíra</h2>
           <p className="section-text">
             Há anos estudo astrologia e me dedico a interpretar mapas com
             sensibilidade e profundidade. Mais do que prever, gosto de
@@ -20,7 +20,7 @@ function AboutSection() {
             o simbólico em algo que você possa{' '}
             <strong>sentir e usar no dia a dia</strong>.
           </p>
-          <div className="signature">— com carinho, [seu nome]</div>
+          <div className="signature">— com carinho, Amaíra</div>
         </div>
       </div>
     </section>

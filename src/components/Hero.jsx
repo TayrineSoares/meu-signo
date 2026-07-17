@@ -1,4 +1,4 @@
-import { whatsappLink } from '../whatsapp'
+import { FORM_LINK } from '../links'
 
 function Hero() {
   return (
@@ -15,7 +15,7 @@ function Hero() {
       <div className="hero__actions">
         <a
           className="btn btn--primary btn--lg"
-          href={whatsappLink('Olá! Quero saber mais sobre o meu Mapa Astral.')}
+          href={FORM_LINK}
           target="_blank"
           rel="noreferrer"
         >
@@ -28,7 +28,7 @@ function Hero() {
       <div className="hero__stats">
         <span>✦ +500 mapas entregues</span>
         <span className="hero__stats-dot">·</span>
-        <span>✦ Entrega por WhatsApp</span>
+        <span>✦ Formulário rápido online</span>
         <span className="hero__stats-dot">·</span>
         <span>✦ 5,0 no Instagram</span>
       </div>

@@ -1,5 +1,5 @@
 import Logo from './Logo'
-import { whatsappLink } from '../whatsapp'
+import { FORM_LINK } from '../links'
 
 function Navbar() {
   return (
@@ -13,8 +13,8 @@ function Navbar() {
         <a href="#como-encomendar">Como funciona</a>
         <a href="#depoimentos">Depoimentos</a>
         <a
-          className="btn btn--primary"
-          href={whatsappLink('Olá! Quero saber mais sobre o meu Mapa Astral.')}
+          className="navbar__cta"
+          href={FORM_LINK}
           target="_blank"
           rel="noreferrer"
         >

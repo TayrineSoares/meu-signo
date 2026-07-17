@@ -1,4 +1,4 @@
-import { whatsappLink } from '../whatsapp'
+import { FORM_LINK } from '../links'
 
 function FinalCta() {
   return (
@@ -10,7 +10,7 @@ function FinalCta() {
       </p>
       <a
         className="btn btn--light btn--lg"
-        href={whatsappLink('Olá! Quero saber mais sobre o meu Mapa Astral.')}
+        href={FORM_LINK}
         target="_blank"
         rel="noreferrer"
       >
