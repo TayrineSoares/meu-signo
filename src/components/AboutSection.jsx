@@ -1,9 +1,11 @@
+import amairaPhoto from '../assets/amaira.png'
+
 function AboutSection() {
   return (
     <section id="sobre-mim" className="section section--tint">
       <div className="split split--about">
         <div className="split__photo">
-          <span className="split__photo-label">foto da astróloga</span>
+          <img src={amairaPhoto} alt="Amaíra" />
         </div>
         <div>
           <div className="eyebrow eyebrow--section">Sobre mim</div>
