@@ -13,7 +13,7 @@ function AboutSection() {
           <p className="section-text">
             Há anos estudo astrologia e me dedico a interpretar mapas com
             sensibilidade e profundidade. Mais do que prever, gosto de
-            revelar — de mostrar quem você já é quando olha para o próprio
+            revelar quem você já é quando olha para o próprio
             céu.
           </p>
           <p className="section-text">
@@ -22,6 +22,7 @@ function AboutSection() {
             o simbólico em algo que você possa{' '}
             <strong>sentir e usar no dia a dia</strong>.
           </p>
+          <br/>
           <div className="signature">— com carinho, Amaíra</div>
         </div>
       </div>

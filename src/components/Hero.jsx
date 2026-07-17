@@ -25,13 +25,7 @@ function Hero() {
           O que é um Mapa Astral
         </a>
       </div>
-      <div className="hero__stats">
-        <span>✦ +500 mapas entregues</span>
-        <span className="hero__stats-dot">·</span>
-        <span>✦ Formulário rápido online</span>
-        <span className="hero__stats-dot">·</span>
-        <span>✦ 5,0 no Instagram</span>
-      </div>
+    
     </header>
   )
 }
