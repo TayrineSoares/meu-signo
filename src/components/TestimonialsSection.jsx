@@ -19,11 +19,16 @@ function TestimonialsSection() {
       </h2>
       <div className="testimonials">
         {TESTIMONIALS.map((item) => (
-          <div className="testimonial-card" key={item.author}>
-            <div className="testimonial-card__stars">★★★★★</div>
-            <p className="testimonial-card__quote">{item.quote}</p>
-            <div className="testimonial-card__author">{item.author}</div>
-          </div>
+          <article className="testimonial-card" key={item.author}>
+            <p className="testimonial-card__stars">
+              <span aria-hidden="true">★★★★★</span>
+              <span className="visually-hidden">5 de 5 estrelas</span>
+            </p>
+            <blockquote className="testimonial-card__quote">
+              <p>{item.quote}</p>
+            </blockquote>
+            <p className="testimonial-card__author">{item.author}</p>
+          </article>
         ))}
       </div>
     </section>

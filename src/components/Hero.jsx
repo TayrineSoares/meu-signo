@@ -2,7 +2,7 @@ import { FORM_LINK } from '../links'
 
 function Hero() {
   return (
-    <header id="hero" className="hero">
+    <section id="hero" className="hero">
       <div className="hero__glow" aria-hidden="true" />
       <div className="eyebrow">Astrologia &amp; autoconhecimento</div>
       <h1 className="hero__title">
@@ -26,7 +26,7 @@ function Hero() {
         </a>
       </div>
     
-    </header>
+    </section>
   )
 }
 

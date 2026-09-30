@@ -8,6 +8,7 @@ function Logo({ size = 34 }) {
       stroke="currentColor"
       strokeWidth="2.4"
       strokeLinecap="round"
+      aria-hidden="true"
     >
       <g strokeWidth="2">
         <line x1="32" y1="5" x2="32" y2="12" />

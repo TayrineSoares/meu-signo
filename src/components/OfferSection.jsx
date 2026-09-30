@@ -47,7 +47,7 @@ function OfferSection() {
       <div className="products-grid">
         {PRODUCTS.map((product) => (
           <div className="product-card" key={product.title}>
-            <div className="product-card__title">{product.title}</div>
+            <h3 className="product-card__title">{product.title}</h3>
             <p className="product-card__text">{product.text}</p>
             {product.list && (
               <ul className="product-card__list">

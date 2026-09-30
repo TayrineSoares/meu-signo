@@ -13,13 +13,15 @@ function App() {
   return (
     <div className="page">
       <Navbar />
-      <Hero />
-      <WhatIsSection />
-      <AboutSection />
-      <OfferSection />
-      <HowToOrderSection />
-      <TestimonialsSection />
-      <FinalCta />
+      <main>
+        <Hero />
+        <WhatIsSection />
+        <AboutSection />
+        <OfferSection />
+        <HowToOrderSection />
+        <TestimonialsSection />
+        <FinalCta />
+      </main>
       <Footer />
     </div>
   )

@@ -26,7 +26,7 @@ function HowToOrderSection() {
         {STEPS.map((step) => (
           <div className="steps__item" key={step.number}>
             <div className="steps__number">{step.number}</div>
-            <div className="steps__title">{step.title}</div>
+            <h3 className="steps__title">{step.title}</h3>
             <p className="steps__text">{step.text}</p>
           </div>
         ))}

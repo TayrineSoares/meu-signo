@@ -5,7 +5,7 @@ function AboutSection() {
     <section id="sobre-mim" className="section section--tint">
       <div className="split split--about">
         <div className="split__photo">
-          <img src={amairaPhoto} alt="Amaíra" />
+          <img src={amairaPhoto} alt="Amaíra, astróloga do Meu Signo" />
         </div>
         <div>
           <div className="eyebrow eyebrow--section">Sobre mim</div>
